@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMagnet", "GetMagnet.csproj", "{2C5349F8-45A1-4769-9927-634BB9CB0234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5349F8-45A1-4769-9927-634BB9CB0234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5349F8-45A1-4769-9927-634BB9CB0234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5349F8-45A1-4769-9927-634BB9CB0234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5349F8-45A1-4769-9927-634BB9CB0234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AAEBB75-C252-4953-A80B-3A0CD40DD064}
+	EndGlobalSection
+EndGlobal
