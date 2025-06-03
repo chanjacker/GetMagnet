@@ -30,6 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            btnopensite = new Button();
             btnfhorcl = new Button();
             btnfh = new Button();
             btnOpen = new Button();
@@ -63,6 +64,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnopensite);
             panel1.Controls.Add(btnfhorcl);
             panel1.Controls.Add(btnfh);
             panel1.Controls.Add(btnOpen);
@@ -84,6 +86,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1173, 100);
             panel1.TabIndex = 0;
+            // 
+            // btnopensite
+            // 
+            btnopensite.Location = new Point(832, 14);
+            btnopensite.Name = "btnopensite";
+            btnopensite.Size = new Size(75, 23);
+            btnopensite.TabIndex = 16;
+            btnopensite.Text = "打开网站";
+            btnopensite.UseVisualStyleBackColor = true;
+            btnopensite.Click += btnopensite_Click;
             // 
             // btnfhorcl
             // 
@@ -182,7 +194,7 @@
             // 
             // btntest
             // 
-            btntest.Location = new Point(832, 14);
+            btntest.Location = new Point(729, 71);
             btntest.Name = "btntest";
             btntest.Size = new Size(75, 23);
             btntest.TabIndex = 5;
@@ -341,5 +353,6 @@
         private Button btnfhorcl;
         private ToolStripMenuItem 全选ToolStripMenuItem;
         private ToolStripMenuItem 剪切ToolStripMenuItem;
+        private Button btnopensite;
     }
 }

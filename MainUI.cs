@@ -227,9 +227,9 @@ namespace GetMagnet
                 string myurl = string.Format(url, i);
                 if (url.Contains("offset"))
                 {
-                    myurl = string.Format(url, i*50);
+                    myurl = string.Format(url, i * 50);
                 }
-              
+
                 browser.LoadUrl(myurl);
 
                 Thread.Sleep(3000);
@@ -302,6 +302,17 @@ namespace GetMagnet
         private void ºÙ«–ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             rblog.Cut();
+        }
+
+        private void btnopensite_Click(object sender, EventArgs e)
+        {
+            string url = string.Empty;
+            Account? account = cbData.SelectedItem as Account;
+            if (account != null)
+            {
+               url =account.URL;
+            }
+            browser.LoadUrl(url);
         }
     }
 }
